@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* End CSS Reset */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #636879;
+    line-height: 1.2;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3456AF;
+    color: white;
+    text-decoration: none;
+    border-radius: 1em 0 0 1em;
+    padding: 0.5em 0 0.5em 1em;
+}
+
+nav a {
+    padding-right: 2em;
+}
+
+
+#logo {
+    height: 5em;
+    padding: 1em 2em;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding: 0 2em;
+}
+
+#main_content {
+    margin-right: 2em;
+}
+
+#resource_section {
+    display: flex;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+
+#about_text {
+    margin-bottom: 0.5em;
+}
+
+#about_img {
+    height: 10em;
+    width: 50em;
+    background-color: gray;
+    margin-right: 2em;
+}
+
+button {
+    color: white;
+    background-color: #3456AF;
+    border: none;
+    font-size: 1em;
+    border-radius: 2em;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-top: 1em;
+}
+
+form {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+input {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1em;
+    border-top: 2px solid #D0DFFF;
+    border-left: 2px solid #D0DFFF;
+    border-bottom: 2px solid #D0DFFF;
+    border-right: none;
+    width: 30%;
+}
+
+#first_input {
+    border-radius: 2em 0 0 2em;
+}
+
+#search_button {
+    background-color: #3456AF;
+    border: 2px solid #3456AF;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 2em 0.5em 1em;
+    border-radius: 0 2em 2em 0;
+    width: auto;
+}
+
+#jobs_section a {
+    color: #3456AF;
+}
+
+#side_bar {
+    margin: 0 2em 0 auto;
+}
+
+#announcements li {
+    padding-bottom: 1em;
+}
+#resource_section{
+  display:flex;
+  width:auto;
+  align-items: center;
+  flex-direction: column;
+}
+#career_resources_title{
+  font-size: 2em;
+  font-weight: 900;
+  color: #3456AF;
+  margin-bottom: 0.5em;
+}
+#additional_articles{
+	background-color: #f8f8f8;
+}
+#additional_articles h3{
+	font-size: 1rem;
+	font-weight: 900;
+	color: #3456AF;
+	margin-bottom: 0.5rem;
+}
+#article{
+margin-bottom: 2rem;
+padding-bottom: 20%;
+}
+.container .section_title{
+	text-align: center;
+}
+.section_title {
+    font-size: 1.25em;
+    font-weight: 900;
+    color: #3456AF;
+    margin-bottom: 0.5em;
+}
+
+.post_title {
+    font-size: 0.75em;
+    font-weight: 900;
+}
+.post_body{
+  font-size:0.75em;
+  font-weight:
+}
+.resource_post_title{
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.resource_title {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.resource_date
+{
+  display:flex;
+  font-weight:700;
+}
+
+.detail {
+    font-size: 0.75em;
+}
+.resource_posting{
+  display:flex;
+  padding-top: 1%;
+  padding-bottom: 0.08%;
+  border-bottom: 1px solid black;
+  width:auto;
+  align-items: center;
+  flex-direction: column;
+}
+.resource_text{
+  display:flex;
+  width:100%;
+  overflow:hidden;
+  text-overflow: ellipsis
+}
